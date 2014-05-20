@@ -71,4 +71,9 @@
     // Pop this controller and replace with another
     [navController popViewControllerAnimated:NO];
 }
+
+- (IBAction)returnPressed:(UIButton *)sender {
+    [sender resignFirstResponder];
+}
+
 @end

@@ -23,91 +23,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CCDataViewController.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CoreDataDemo/CCDataViewController.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="37" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-              <folding>
-                <element signature="e#154#177#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CCAppDelegate.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CoreDataDemo/CCAppDelegate.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="16" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NSPersistentStoreCoordinator.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/NSPersistentStoreCoordinator.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="202" column="6" selection-start="14599" selection-end="14599" vertical-scroll-proportion="0.0" vertical-offset="2828" max-vertical-offset="3660">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CoreDataDemo/main.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="36" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CCAppDelegate.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CoreDataDemo/CCAppDelegate.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="50" selection-start="2869" selection-end="2869" vertical-scroll-proportion="0.0" vertical-offset="664" max-vertical-offset="2445">
-              <folding>
-                <element signature="e#205#262#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CCTableViewController.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CoreDataDemo/CCTableViewController.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CCTableViewController.m" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CoreDataDemo/CCTableViewController.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="102" selection-start="2185" selection-end="2185" vertical-scroll-proportion="0.4949495" vertical-offset="786" max-vertical-offset="1755">
-              <folding>
-                <element signature="e#155#188#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoreDataDemo-Prefix.pch" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CoreDataDemo/CoreDataDemo-Prefix.pch">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="19" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CCDataViewController.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CoreDataDemo/CCDataViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="38" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1200">
+            <state line="56" column="48" selection-start="1525" selection-end="1525" vertical-scroll-proportion="0.0" vertical-offset="639" max-vertical-offset="1275">
               <folding>
                 <element signature="e#154#186#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CCDataViewController.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CoreDataDemo/CCDataViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="42" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CoreDataDemo/default.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1383" column="69" selection-start="30565" selection-end="30565" vertical-scroll-proportion="0.72727275" vertical-offset="20505" max-vertical-offset="20880">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,19 +63,20 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/CoreDataDemo/CCTableViewController.h" />
-        <option value="$PROJECT_DIR$/CoreDataDemo/CCDataViewController.h" />
-        <option value="$PROJECT_DIR$/CoreDataDemo/CCDataViewController.m" />
         <option value="$PROJECT_DIR$/CoreDataDemo/CCAppDelegate.h" />
         <option value="$PROJECT_DIR$/CoreDataDemo/CCAppDelegate.m" />
         <option value="$PROJECT_DIR$/CoreDataDemo/CCTableViewController.m" />
+        <option value="$PROJECT_DIR$/CoreDataDemo/CCDataViewController.h" />
+        <option value="$PROJECT_DIR$/CoreDataDemo/CCDataViewController.m" />
+        <option value="$PROJECT_DIR$/CoreDataDemo/default.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="160" />
-    <option name="y" value="334" />
+    <option name="y" value="598" />
     <option name="width" value="1573" />
-    <option name="height" value="997" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -166,6 +107,34 @@
       <pane id="Cidr.FilesView" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CoreDataDemo" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Products" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CoreDataDemo" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Frameworks" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" />
@@ -206,6 +175,14 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" PROJECT_NAME="CoreDataDemo" TARGET_NAME="CoreDataDemoTests" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="OCGoogleTestRunConfigurationType" factoryName="Google Test" PROJECT_NAME="CoreDataDemo" TARGET_NAME="CoreDataDemo" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="CoreDataDemo" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="CoreDataDemo" PROJECT_NAME="CoreDataDemo" TARGET_NAME="CoreDataDemo" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="CoreDataDemo" RUN_TARGET_NAME="CoreDataDemo" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <RunnerSettings RunnerId="AppRunner" />
@@ -226,18 +203,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="160" y="334" width="1573" height="997" extended-state="0" />
+    <frame x="160" y="598" width="1573" height="733" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32831326" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16083916" sideWeight="0.67025864" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16083916" sideWeight="0.5391566" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39978448" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297414" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46084338" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -265,7 +242,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CoreDataDemo/main.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="36" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+        <state line="20" column="0" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="375">
           <folding />
         </state>
       </provider>
@@ -279,17 +256,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CoreDataDemo/CoreDataDemo-Prefix.pch">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="19" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+        <state line="17" column="0" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoreDataDemo/CCDataViewController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="37" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding>
-            <element signature="e#154#177#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -302,8 +270,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CoreDataDemo/CCAppDelegate.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="16" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <folding />
+        <state line="26" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding>
+            <marker date="1400562926000" expanded="true" signature="-1:-1" placeholder="//..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -312,25 +282,40 @@
         <state line="57" column="50" selection-start="2869" selection-end="2869" vertical-scroll-proportion="0.0" vertical-offset="664" max-vertical-offset="2445">
           <folding>
             <element signature="e#205#262#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoreDataDemo/CCDataViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="38" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1200">
-          <folding>
-            <element signature="e#154#186#0" expanded="true" />
+            <marker date="1400562961000" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1400562961000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1400562961000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CoreDataDemo/CCTableViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="102" selection-start="2185" selection-end="2185" vertical-scroll-proportion="0.4949495" vertical-offset="786" max-vertical-offset="1755">
+        <state line="63" column="121" selection-start="1724" selection-end="1724" vertical-scroll-proportion="0.0" vertical-offset="786" max-vertical-offset="1755">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoreDataDemo/CCDataViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="42" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoreDataDemo/CCDataViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="48" selection-start="1525" selection-end="1525" vertical-scroll-proportion="0.0" vertical-offset="639" max-vertical-offset="1275">
           <folding>
-            <element signature="e#155#188#0" expanded="true" />
+            <element signature="e#154#186#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoreDataDemo/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1383" column="69" selection-start="30565" selection-end="30565" vertical-scroll-proportion="0.72727275" vertical-offset="20505" max-vertical-offset="20880">
+          <folding />
         </state>
       </provider>
     </entry>

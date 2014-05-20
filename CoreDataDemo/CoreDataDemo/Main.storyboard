@@ -28,6 +28,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="styleClass" value="text-field text-center"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="returnPressed:" destination="dZK-zM-dIo" eventType="editingDidEndOnExit" id="oLR-hv-PUs"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Surname" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uq3-43-6F7">
                                 <rect key="frame" x="20" y="122" width="72" height="21"/>
@@ -41,6 +47,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="styleClass" value="text-field text-center"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="returnPressed:" destination="dZK-zM-dIo" eventType="editingDidEndOnExit" id="mcC-NU-3Ej"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G6z-uV-hbP">
                                 <rect key="frame" x="100" y="194" width="200" height="30"/>
@@ -48,6 +60,9 @@
                                 <state key="normal" title="Save">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="styleClass" value="button"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="saveData:" destination="dZK-zM-dIo" eventType="touchUpInside" id="Ygi-Gj-suh"/>
                                 </connections>
@@ -63,10 +78,19 @@
                                 <rect key="frame" x="100" y="156" width="200" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="styleClass" value="text-field text-center"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="returnPressed:" destination="dZK-zM-dIo" eventType="editingDidEndOnExit" id="Pqw-Eq-9QN"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="styleClass" value="view"/>
+                        </userDefinedRuntimeAttributes>
                     </view>
                     <navigationItem key="navigationItem" id="8Wf-nZ-YN2">
                         <string key="title" base64-UTF8="YES">
@@ -120,8 +144,14 @@ EEFkZCBDb250YWN0A
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="styleClass" value="table-cell"/>
+                                </userDefinedRuntimeAttributes>
                             </tableViewCell>
                         </prototypes>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="styleClass" value="view"/>
+                        </userDefinedRuntimeAttributes>
                         <connections>
                             <outlet property="dataSource" destination="chZ-Eq-77W" id="KBb-qz-Td7"/>
                             <outlet property="delegate" destination="chZ-Eq-77W" id="48y-d5-F4u"/>

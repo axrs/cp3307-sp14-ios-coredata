@@ -10,6 +10,8 @@
 		C0D4D8E5192B09450012D936 /* CCDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D4D8E4192B09450012D936 /* CCDataViewController.m */; };
 		C0D4D8E8192B11C90012D936 /* CCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D4D8E7192B11C90012D936 /* CCTableViewController.m */; };
 		C0D4D8EB192B16270012D936 /* CCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D4D8EA192B16270012D936 /* CCPerson.m */; };
+		C0D4D8ED192B1DA00012D936 /* PixateFreestyle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D4D8EC192B1DA00012D936 /* PixateFreestyle.framework */; };
+		C0D4D8F1192B1E000012D936 /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = C0D4D8F0192B1E000012D936 /* default.css */; };
 		FA5CFA25192AE84A009B078B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5CFA24192AE84A009B078B /* Foundation.framework */; };
 		FA5CFA27192AE84A009B078B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5CFA26192AE84A009B078B /* CoreGraphics.framework */; };
 		FA5CFA29192AE84A009B078B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5CFA28192AE84A009B078B /* UIKit.framework */; };
@@ -45,6 +47,8 @@
 		C0D4D8E7192B11C90012D936 /* CCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTableViewController.m; sourceTree = "<group>"; };
 		C0D4D8E9192B16270012D936 /* CCPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPerson.h; sourceTree = "<group>"; };
 		C0D4D8EA192B16270012D936 /* CCPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPerson.m; sourceTree = "<group>"; };
+		C0D4D8EC192B1DA00012D936 /* PixateFreestyle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PixateFreestyle.framework; path = ../../../../../Documents/PixateFreestyle/PixateFreestyle.framework; sourceTree = "<group>"; };
+		C0D4D8F0192B1E000012D936 /* default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.css; sourceTree = "<group>"; };
 		FA5CFA21192AE84A009B078B /* CoreDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5CFA24192AE84A009B078B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA5CFA26192AE84A009B078B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -71,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0D4D8ED192B1DA00012D936 /* PixateFreestyle.framework in Frameworks */,
 				FA5CFA27192AE84A009B078B /* CoreGraphics.framework in Frameworks */,
 				FA5CFA2B192AE84A009B078B /* CoreData.framework in Frameworks */,
 				FA5CFA29192AE84A009B078B /* UIKit.framework in Frameworks */,
@@ -114,6 +119,7 @@
 		FA5CFA23192AE84A009B078B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C0D4D8EC192B1DA00012D936 /* PixateFreestyle.framework */,
 				FA5CFA24192AE84A009B078B /* Foundation.framework */,
 				FA5CFA26192AE84A009B078B /* CoreGraphics.framework */,
 				FA5CFA28192AE84A009B078B /* UIKit.framework */,
@@ -126,6 +132,7 @@
 		FA5CFA2C192AE84A009B078B /* CoreDataDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C0D4D8F0192B1E000012D936 /* default.css */,
 				FA5CFA5E192AE8F2009B078B /* CCData.xcdatamodeld */,
 				C0D4D8E9192B16270012D936 /* CCPerson.h */,
 				C0D4D8EA192B16270012D936 /* CCPerson.m */,
@@ -250,6 +257,7 @@
 				FA5CFA5A192AE86B009B078B /* Main.storyboard in Resources */,
 				FA5CFA31192AE84A009B078B /* InfoPlist.strings in Resources */,
 				FA5CFA3C192AE84A009B078B /* Images.xcassets in Resources */,
+				C0D4D8F1192B1E000012D936 /* default.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +398,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Documents/PixateFreestyle,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreDataDemo/CoreDataDemo-Prefix.pch";
 				INFOPLIST_FILE = "CoreDataDemo/CoreDataDemo-Info.plist";
@@ -403,6 +415,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Documents/PixateFreestyle,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreDataDemo/CoreDataDemo-Prefix.pch";
 				INFOPLIST_FILE = "CoreDataDemo/CoreDataDemo-Info.plist";
