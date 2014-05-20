@@ -22,6 +22,7 @@
 		FA5CFA46192AE84A009B078B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5CFA2A192AE84A009B078B /* CoreData.framework */; };
 		FA5CFA4E192AE84A009B078B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA5CFA4C192AE84A009B078B /* InfoPlist.strings */; };
 		FA5CFA50192AE84A009B078B /* CoreDataDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5CFA4F192AE84A009B078B /* CoreDataDemoTests.m */; };
+		FA5CFA5A192AE86B009B078B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5CFA59192AE86B009B078B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		FA5CFA4B192AE84A009B078B /* CoreDataDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataDemoTests-Info.plist"; sourceTree = "<group>"; };
 		FA5CFA4D192AE84A009B078B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA5CFA4F192AE84A009B078B /* CoreDataDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataDemoTests.m; sourceTree = "<group>"; };
+		FA5CFA59192AE86B009B078B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		FA5CFA2C192AE84A009B078B /* CoreDataDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FA5CFA59192AE86B009B078B /* Main.storyboard */,
 				FA5CFA35192AE84A009B078B /* CCAppDelegate.h */,
 				FA5CFA36192AE84A009B078B /* CCAppDelegate.m */,
 				FA5CFA3B192AE84A009B078B /* Images.xcassets */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5CFA5A192AE86B009B078B /* Main.storyboard in Resources */,
 				FA5CFA31192AE84A009B078B /* InfoPlist.strings in Resources */,
 				FA5CFA3C192AE84A009B078B /* Images.xcassets in Resources */,
 			);
