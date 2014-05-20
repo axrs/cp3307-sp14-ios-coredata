@@ -23,6 +23,7 @@
 		FA5CFA4E192AE84A009B078B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA5CFA4C192AE84A009B078B /* InfoPlist.strings */; };
 		FA5CFA50192AE84A009B078B /* CoreDataDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5CFA4F192AE84A009B078B /* CoreDataDemoTests.m */; };
 		FA5CFA5A192AE86B009B078B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5CFA59192AE86B009B078B /* Main.storyboard */; };
+		FA5CFA60192AE8F2009B078B /* CCData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA5CFA5E192AE8F2009B078B /* CCData.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		FA5CFA4D192AE84A009B078B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA5CFA4F192AE84A009B078B /* CoreDataDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataDemoTests.m; sourceTree = "<group>"; };
 		FA5CFA59192AE86B009B078B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FA5CFA5F192AE8F2009B078B /* CCData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CCData.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		FA5CFA2C192AE84A009B078B /* CoreDataDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FA5CFA5E192AE8F2009B078B /* CCData.xcdatamodeld */,
 				FA5CFA59192AE86B009B078B /* Main.storyboard */,
 				FA5CFA35192AE84A009B078B /* CCAppDelegate.h */,
 				FA5CFA36192AE84A009B078B /* CCAppDelegate.m */,
@@ -256,6 +259,7 @@
 				FA5CFA37192AE84A009B078B /* CCAppDelegate.m in Sources */,
 				FA5CFA3A192AE84A009B078B /* CoreDataDemo.xcdatamodeld in Sources */,
 				FA5CFA33192AE84A009B078B /* main.m in Sources */,
+				FA5CFA60192AE8F2009B078B /* CCData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +479,17 @@
 			);
 			currentVersion = FA5CFA39192AE84A009B078B /* CoreDataDemo.xcdatamodel */;
 			path = CoreDataDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		FA5CFA5E192AE8F2009B078B /* CCData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA5CFA5F192AE8F2009B078B /* CCData.xcdatamodel */,
+			);
+			currentVersion = FA5CFA5F192AE8F2009B078B /* CCData.xcdatamodel */;
+			name = CCData.xcdatamodeld;
+			path = ../CCData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
